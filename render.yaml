@@ -1,0 +1,9 @@
+# Optional: render.yaml for Render autodeploy (you can also configure on the Render UI)
+services:
+  - type: web
+    name: photo-qr-uploader-r2
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    staticPublishPath: public

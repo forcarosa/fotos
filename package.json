@@ -1,0 +1,21 @@
+{
+  "name": "photo-qr-uploader-r2",
+  "version": "1.0.0",
+  "description": "Upload fotos via QR + gera QR para visualiza\u00e7\u00e3o (Cloudflare R2). Tema: For\u00e7a Rosa.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.430.0",
+    "@aws-sdk/s3-request-presigner": "^3.430.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "qrcode": "^1.5.1",
+    "sharp": "^0.33.0"
+  }
+}
