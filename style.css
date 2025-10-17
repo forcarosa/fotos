@@ -1,0 +1,24 @@
+/* style.css - tema rosa (Força Rosa) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root{
+  --pink:#ff4da6;
+  --bg:#fff5f9;
+  --card:#ffffff;
+  --muted:#666;
+}
+
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial; background:linear-gradient(180deg,var(--bg),#fff); margin:0; display:flex; align-items:center; justify-content:center; min-height:100vh; padding:20px; color:#111}
+.card{width:100%; max-width:520px; background:var(--card); border-radius:14px; padding:22px; box-shadow:0 10px 30px rgba(0,0,0,0.06)}
+h1{margin:0 0 6px 0; color:var(--pink)}
+.subtitle{margin:0 0 14px 0; color:var(--muted); font-size:14px}
+.file-label{display:block; border:2px dashed rgba(255,77,166,0.18); padding:14px; text-align:center; border-radius:10px; cursor:pointer; margin-bottom:12px}
+.file-label input{display:none}
+.file-label span{color:var(--pink); font-weight:600}
+.actions{display:flex; gap:10px; align-items:center}
+button{background:var(--pink); border:none; color:white; padding:10px 14px; border-radius:10px; cursor:pointer; font-weight:600}
+.result{margin-top:14px}
+.error{color:#cc0033}
+.muted{color:var(--muted); font-size:12px}
+footer{margin-top:12px; font-size:12px; color:var(--muted)}
